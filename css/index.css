@@ -10,13 +10,15 @@ html, body {
   margin: 0;
 }
 
+/* Navbar */
 #topNav{
 height: 100px;
 width: 100%;
 background-color: red;
 }
+/*Fin Navbar */
 
-
+/* Lien */
 a:hover{
   text-decoration: none;
 }
@@ -25,9 +27,9 @@ a {
   color: white;
   text-decoration: none;
 }
+/* Fin de lien */
 
-
-
+/* Slider */
 img {
   max-width: 100%;
   vertical-align: middle;
@@ -134,12 +136,16 @@ img {
     height: auto;
   }
 }
+/* Fin du slider */
 
-#flotteleft {
-float:left;
-margin-left: 10px;
+/* Div Barbecue, sert à alligner le texte */
+#Barbecue {
+  display: flex;
+  justify-content: space-around;
 }
+/* Fin de div Barbecue */
 
+/* Footer */
 .galerie {
     width : 600px;
 }
@@ -155,21 +161,6 @@ margin-left: 10px;
     visibility : hidden;
 }
 
-#txt {
-text-align: justify;
-
-}
-
-#Barbecue {
-  display: flex;
-  justify-content: space-around;
-}
-
-#flotteright {
-  float: right;
-}
-
-
 #footer {
   margin-top: auto;
   background: black;
@@ -181,3 +172,4 @@ text-align: justify;
 .foot {
   text-align: center;
 }
+/* Fin du footer */
